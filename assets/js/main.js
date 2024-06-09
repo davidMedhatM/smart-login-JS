@@ -9,7 +9,8 @@ var signUpcontainer = document.getElementById('signUpcontainer')
 var Homecontainer = document.getElementById('Homecontainer')
 var SignUpBtn = document.getElementById('SignUpBtn')
 var SigninBtn = document.getElementById('SigninBtn')
-var username 
+var username ;
+
 SignUpBtn.addEventListener('click',function(){
     signUpcontainer.classList.toggle('d-none')
     signIncontainer.classList.toggle('d-none')
@@ -18,13 +19,7 @@ SigninBtn.addEventListener('click',function(){
     signUpcontainer.classList.toggle('d-none')
     signIncontainer.classList.toggle('d-none')
 })
-//     // to get base url (localhost)
-// var pathparts = location.pathname.split('/');
-// var baseURL = ''
-// for (var i = 0; i < pathparts.length - 1; i++) {
-//     baseURL += '/' + pathparts[i]
-// }
-// console.log(baseURL);
+
 
 
 
@@ -98,7 +93,6 @@ function signUp() {
 
 
 
-// ============= for login================
 //for check inputs is empty or not
 function isLoginEmpty() {
 
